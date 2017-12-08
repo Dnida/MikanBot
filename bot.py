@@ -39,7 +39,7 @@ def main():
 
 			#Simple Time Command
 			if message.strip() == "!time":
-				utils.chat(s, "u-uhmmm it's currently " + time.strftime("%I:%M %p %Z on %A, %B %d, %Y"))
+				utils.chat(s, "it's currently " + time.strftime("%I:%M %p %Z on %A, %B %d, %Y"))
 		sleep(1)
 
 
